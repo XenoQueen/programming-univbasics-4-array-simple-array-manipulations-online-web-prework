@@ -70,3 +70,5 @@ species = ["Selkath", "Sith", ["Voss", "Twilek"]]
   => ["Selkath", "Sith", ["Voss", "Twilek"]]
 republic = [planets, species, "Rancor", "Acklay"]
   => [["Manaan", "Korriban]"], ["Selkath", "Sith", ["Voss", "Twilek"], "Rancor", "Acklay"]
+republic.flatten
+  => 
