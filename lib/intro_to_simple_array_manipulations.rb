@@ -22,7 +22,7 @@ planets
   => "Zakuul"
 end
 
-def pop_with_args
+def pop_with_args(array)
 planets = ["Manaan", "Korriban", "Tython"]
   planets.pop(2)
     => ["Manaan", "Korriban"]
@@ -30,7 +30,7 @@ planets = ["Manaan", "Korriban", "Tython"]
     => ["Tython"]
 end
 
-def using_shift
+def using_shift(array)
 planets = ["Manaan", "Korriban", "Tython"]
   planets.shift
     => "Manaan"
@@ -38,7 +38,7 @@ planets = ["Manaan", "Korriban", "Tython"]
     => "Korriban", "Tython"
 end
 
-def using_shift_with_args
+def using_shift_with_args(array)
 planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
   planets.shift(2)
     => ["Zakuul", "Manaan"]
@@ -46,3 +46,7 @@ planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
     => ["Korriban", "Tython"]
 end
 
+def using_concat(array)
+planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
+native_species = ["Zakuulian", "Selkath", "Sith", "Flesh Raider"]
+  
