@@ -58,6 +58,6 @@ planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
 end
 
 def using_uniq(array)
-planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
-  
+planets = ["Zakuul", "Zakuul", "Manaan", "Korriban", "Korriban", "Tython"]
+  planets.uniq
   
