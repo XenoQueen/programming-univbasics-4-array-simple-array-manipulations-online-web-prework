@@ -82,3 +82,4 @@ planets
   => "Zakuul", "Manaan", "Tython"
 end
 
+def using_delete_at(array, integer)
