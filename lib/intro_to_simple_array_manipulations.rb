@@ -78,4 +78,5 @@ def using_delete(array, string)
 planets = ["Zakuul", "Manaan", "Korriban", "Korriban", "Tython"]
   planets.delete("Korriban")
   => "Korriban"
-  
+planets
+  => "Zakuul", "Manaan", "Tython"
