@@ -11,3 +11,7 @@ planets = ["Manaan", "Korriban", "Tython"]
   planets.unshift("Coruscant", "Dromund Kaas")
   => ["Coruscant", "Dromund Kaas", "Planets", "Manaan", "Korriban", "Tython"]
 end
+
+def using_pop(array, element)
+planets = ["Manaan", "Korriban", "Tython"]
+  
