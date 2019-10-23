@@ -52,5 +52,6 @@ def using_concat(array)
 end
 
 def using_insert(array, element)
-planets = 
+planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
+  
   
