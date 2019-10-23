@@ -63,5 +63,6 @@ planets = ["Zakuul", "Zakuul", "Manaan", "Korriban", "Korriban", "Tython"]
     => ["Zakuul", "Manaan", "Korriban", "Tython"]
 end
 
-
+def using_flatten(array)
+planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
   
