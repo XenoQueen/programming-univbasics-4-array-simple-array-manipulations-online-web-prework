@@ -34,4 +34,6 @@ def using_shift
 planets = ["Manaan", "Korriban", "Tython"]
   planets.shift
     => "Manaan"
+  planets
+    => "Korriban", "Tython"
     
