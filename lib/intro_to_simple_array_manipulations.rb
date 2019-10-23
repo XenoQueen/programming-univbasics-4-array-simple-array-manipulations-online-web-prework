@@ -48,5 +48,6 @@ end
 
 def using_concat(array)
 planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
-native_species = ["Zakuulian", "Selkath", "Sith", "Flesh Raider"]
+moons = ["Endor", "Yavin 4"]
+8
   
