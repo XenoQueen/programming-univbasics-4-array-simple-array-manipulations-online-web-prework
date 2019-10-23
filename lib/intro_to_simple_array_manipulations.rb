@@ -53,5 +53,5 @@ end
 
 def using_insert(array, element)
 planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
-  
+  planets.insert
   
