@@ -24,7 +24,7 @@ end
 
 def pop_with_args
 planets = ["Manaan", "Korriban", "Tython"]
-  planets.shift(2)
+  planets.pop(2)
     => ["Manaan", "Korriban"]
   planets
     => ["Tython"]
@@ -36,5 +36,13 @@ planets = ["Manaan", "Korriban", "Tython"]
     => "Manaan"
   planets
     => "Korriban", "Tython"
+end
+
+def using_shift_with_args
+planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
+  planets.shift(2)
+    => ["Zakuul", "Manaan"]
+  planets
+    => ["Korriban", "Tython"]
 end
 
