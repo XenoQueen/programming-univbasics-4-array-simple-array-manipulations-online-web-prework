@@ -47,7 +47,5 @@ planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
 end
 
 def using_concat(array)
-planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
-moons = ["Endor", "Yavin 4"]
 
   
