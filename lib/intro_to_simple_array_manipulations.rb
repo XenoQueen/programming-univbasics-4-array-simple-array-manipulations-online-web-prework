@@ -66,4 +66,4 @@ end
 def using_flatten(array)
 planets = ["Manaan", "Korriban"]
 species = ["Selkath", "Sith", ["Voss", "Twilek"]]
-republic = [planets, species], "Rancor", "Acklay"]
+republic = [planets, species, "Rancor", "Acklay"]
