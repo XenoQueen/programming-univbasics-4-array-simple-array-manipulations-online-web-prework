@@ -14,4 +14,5 @@ end
 
 def using_pop(array, element)
 planets = ["Manaan", "Korriban", "Tython"]
-  planets.pop 
+  planets.pop
+  => 
