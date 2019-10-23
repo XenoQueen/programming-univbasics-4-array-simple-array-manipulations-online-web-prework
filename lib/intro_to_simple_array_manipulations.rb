@@ -27,3 +27,4 @@ planets = ["Manaan", "Korriban", "Tython"]
   planets.shift(2)
     => ["Manaan", "Korriban"]
   planets
+    => []
