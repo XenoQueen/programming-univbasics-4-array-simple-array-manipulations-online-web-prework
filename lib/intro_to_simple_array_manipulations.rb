@@ -74,3 +74,4 @@ republic.flatten
   => ["Manaan", "Korriban", "Selkath", "Sith", "Voss", "Twilek", "Rancor", "Acklay"]
 end
 
+def using_delete(array, string)
