@@ -85,4 +85,5 @@ end
 def using_delete_at(array, integer)
 planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
   planets.delete(3)
+    => "Tython"
     => "Zakuul", "Manaan", "Korriban"
