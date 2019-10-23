@@ -7,4 +7,4 @@ end
 def using_unshift(array)
 planets = ["Manaan", "Korriban", "Tython"]
   planets.unshift("Planets") => ["Planets", "Manaan", "Korriban","Tython"]
-  
+  planets.unshift("Coruscant", "Dromund Kaas")
