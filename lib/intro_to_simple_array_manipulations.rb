@@ -19,3 +19,5 @@ planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
 planets.pop(2)
   => "Korriban", "Manaan"
 planets
+  => "Zakuul"
+end
