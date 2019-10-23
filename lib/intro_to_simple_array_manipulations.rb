@@ -1,5 +1,5 @@
 def using_push
 planets = ["Manaan", "Korriban", "Tython"]
   next_planet = "Balmorra"
-  updated_array
+  planets.push(next_planet)
 end
