@@ -57,7 +57,7 @@ planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
     => ["Zakuul", "Manaan", "Korriban", "Balmorra"]
 end
 
-def using_unique(array)
+def using_uniq(array)
 planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
   
   
