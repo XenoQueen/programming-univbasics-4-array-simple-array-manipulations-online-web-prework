@@ -24,4 +24,5 @@ end
 
 def pop_with_args
 planets = ["Zakuul", "Manaan", "Korriban", "Tython"]
+  planets.shift(2)
   
