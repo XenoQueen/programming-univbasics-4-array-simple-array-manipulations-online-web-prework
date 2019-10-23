@@ -9,4 +9,5 @@ planets = ["Manaan", "Korriban", "Tython"]
   planets.unshift("Planets") 
   => ["Planets", "Manaan", "Korriban","Tython"]
   planets.unshift("Coruscant", "Dromund Kaas")
-  => []
+  => ["Coruscant", "Dromund Kaas", "Planets", "Manaan", "Korriban", "Tython"]
+end
